@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+body {
+    background-image: url(images/wallhaven-1plpo1.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #e7d8b1;
+    border: solid #ea4c88 3px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: 'Sofia', sans-serif;
+    background-color: #dcdbe1;
+    border: solid #ea4c88 3px;
+    color: black;
+    border-radius: 5px;
+    width: 97%;
+    height: 50px;
+}
+
+#c-btn {
+    background-color: #cc3333;
+    height: 50px;
+}
+
+#e-btn {
+    background-color: #cc3333;
+}
+
+input[type=button] {
+    font-family: 'Sofia', sans-serif;
+    background-color: #fdadc7;
+    color: white;
+    border: solid #ea4c88 2px;
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    outline: none;
+}
+
+input:active[type=button] {
+    background: #fdadb1;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
